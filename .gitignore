@@ -1,0 +1,29 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform runtime directories
+.terraform/
+**/.terraform/
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Private keys
+max12
+mazz3
+*.pem
+id_rsa
+id_ed25519
